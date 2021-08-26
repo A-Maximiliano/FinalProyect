@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="videogames_title">
+        <item>Syberia Saga</item>
+        <item>Psyconauts</item>
+        <item>Hellblade</item>
+        <item>Metro Saga </item>
+        <item>A Plague Tale Innocence</item>
+        <item>Dishonored Saga</item>
+        <item>The Witcher</item>
+        <item>Inside</item>
+        <item>Twelve Minutes</item>
+    </string-array>
+</resources>
