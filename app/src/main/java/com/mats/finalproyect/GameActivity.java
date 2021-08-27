@@ -9,8 +9,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.google.android.material.navigation.NavigationView;
-
 public class GameActivity extends AppCompatActivity {
 
     //Declaracion de variables de clase
@@ -19,19 +17,17 @@ public class GameActivity extends AppCompatActivity {
     Toolbar toolbar;
     DrawerLayout drawer;
     ActionBarDrawerToggle toggle;
-    NavigationView navigationView;
+    //NavigationView navigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
-
-
-        toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.encabezado);
        // setSupportActionBar(toolbar);
 
-        navigationView = findViewById(R.id.navi_view);
+        //navigationView = findViewById(R.id.navi_view);
        // navigationView.setNavigationItemSelectedListener(this);
 
         drawer = findViewById(R.id.drawer);
@@ -44,7 +40,7 @@ public class GameActivity extends AppCompatActivity {
         String[] titles = getResources().getStringArray(R.array.videogames_title);
         String[] contents = getResources().getStringArray(R.array.game_description);
 
-        recyclerView = findViewById(R.id.storiesListsView);
+        recyclerView = findViewById(R.id.Game_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new Adapter(this,titles,contents); // our adapter takes two string array
         recyclerView.setAdapter(adapter);
