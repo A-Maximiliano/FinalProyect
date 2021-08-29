@@ -2,21 +2,29 @@
 <resources>
     <string-array name="game_description">
         <item>
-            Syberia es un videojuego creado por Benoit Sokal para PC, enmarcado en el género de aventura gráfica en tercera persona\n
-           El título está protagonizado por una joven abogada neoyorquina, Kate Walker. La macrocompañía para la que trabaja la envía a un remoto\n
-           pueblo alpino para adquirir una empresa de autómatas (no confundir con robots), propiedad de Hans Voralberg, un inventor y constructor de autómatas muy\n
-           excéntrico. Repleto de enigmas y puzles característicos del género.\n\n
-            sed do eiusmod tempor incididunt ut\n labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi\n
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in\n
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n Excepteur sint
-            occaecat cupidatat non proident,sunt in \n culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n\n
-            sed do eiusmod tempor incididunt ut\n labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi\n
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in\n
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n Excepteur sint
-            occaecat cupidatat non proident,sunt in \n culpa qui officia deserunt mollit anim id est laborum.\n
+            Syberia es un videojuego creado por Benoit Sokal para PC, enmarcado en el género de aventura gráfica en tercera persona.\n\n
+            El título está protagonizado por una joven abogada neoyorquina, Kate Walker. La macrocompañía para la que trabaja la envía
+            a un remoto pueblo alpino para adquirir una empresa de autómatas (no confundir con robots), propiedad de Hans Voralberg,
+            un inventor y constructor de autómatas muy excéntrico.\n\n Repleto de enigmas y puzles característicos del género esta historia
+            transcurre en los años 80.\n\n
+        </item>
+        <item>
+            Psychonauts es un videojuego de plataformas de la compañía Double Fine Productions lanzado en 2005. A pesar de ser bien recibido,
+            Psychonauts se consideró un fracaso comercial en su momento de lanzamiento, con solo alrededor de 100,000 unidades vendidas.
+            Desde entonces, el juego ha ganado varios premios de la industria y ha ganado seguimiento de culto.\n\n El protagonista de este
+            videojuego es Raz, un muchacho que se cuela en un campamento veraniego para entrenamiento mental de los Psychonauts. Una vez allí
+            descubrirá un misterioso complot para apoderarse de los cerebros de los alumnos y crear un ejército. \n\n El juego plantea retos de
+            plataforma clásicos, como saltos imposibles, balanceos en cuerdas y barras, entre otros. \n\n La aventura está compuesta por trece
+            escenarios donde Raz va descubriendo sus poderes mentales.
+        </item>
+        <item>
+            Inspirado por la mitología nórdica y la cultura celta, Hellblade sigue a Senua (interpretada por la actriz Melina Juergens),
+            una guerrera picta que debe llegar a Helheim derrotando a entidades de otro mundo y enfrentando sus desafíos, para rescatar
+            el alma de su amante muerto de la diosa Hela.\n\n Paralelamente, el juego actúa como una metáfora de la lucha del personaje
+            con la psicosis, ya que Senua, quien padece la afección pero cree que es una maldición, es perseguida por una entidad conocida
+            como "La Oscuridad", voces en su cabeza conocidas como "Furias" y recuerdos de su pasado. \n\n Para representar correctamente la
+            psicosis, los desarrolladores trabajaron en estrecha colaboración con neurocientíficos, especialistas en salud mental, organizaciones
+            sin fines de lucro y personas que padecen esta afección.
         </item>
         <item>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -35,28 +43,17 @@
             occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
         </item>
         <item>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </item>
-        <item>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </item>
-        <item>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
+           Dishonored es un juego de acción y aventura de 2012 desarrollado por Arkane Studios y publicado por Bethesda Softworks. Ambientada en la
+            ficticia ciudad industrial plagada de Dunwall, Dishonored sigue la historia de Corvo Attano,guardaespaldas de la emperatriz de las islas.
+            Él es incriminado por su asesinato y obligado a convertirse en un asesino, buscando venganza contra aquellos que conspiraron contra él.
+            Corvo es ayudado en su búsqueda por los Lealistas, un grupo de resistencia que lucha por recuperar Dunwall, y el Forastero,un ser poderoso
+            que impregna a Corvo de habilidades mágicas.\n\n
+
+            El juego se juega desde una perspectiva en primera persona y permite al jugador emprender una serie de misiones de varias maneras, con énfasis
+            en la elección del jugador. Las misiones se pueden completar a través del sigilo, el combate o una combinación de ambos.\n\n Explorar cada nivel
+            abre nuevos caminos y alternativas para lograr los objetivos de la misión, y es posible completar todas las misiones, eliminando todos los objetivos
+            de Corvo, de una manera no letal. La historia y las misiones cambian en respuesta a las acciones violentas del jugador o la falta de ellas.
+            Las habilidades mágicas y el equipo están diseñados para combinarse para crear efectos nuevos y variados.
         </item>
         <item>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,

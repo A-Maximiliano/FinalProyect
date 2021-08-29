@@ -1,8 +1,5 @@
 <resources>
-    <string name="app_name">FinalProyect</string>
 
-    //no es necesario
-    <string name="open">open</string>
-    <string name="close">close</string>
+    <string name="app_name">FinalProyect:\n\n Lista de videojuegos</string>
 
 </resources>

@@ -8,25 +8,10 @@
     android:id="@+id/drawer">
 
     <include
-        layout="@layout/activity_02"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#A65252" />
-    <include
         android:layout_marginTop="?attr/actionBarSize"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        layout="@layout/activity_03"/>
+        layout="@layout/content_game_list"/>
 
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/navi_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"/>//final
-
-        //app:menu="@menu/tampoco_se" />
-
-    //app:headerLayout="@layout/no_se_ocupa"
 </androidx.drawerlayout.widget.DrawerLayout>
 

@@ -17,12 +17,12 @@ import java.util.Random;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
 
-    private LayoutInflater inflater;
+    private LayoutInflater layoutF;
     private String[] sTitles;
     private String[] sDescription;
 
     Adapter(Context context, String[] titles, String[] contents){
-        this.inflater = LayoutInflater.from(context);
+        this.layoutF = LayoutInflater.from(context);
         this.sTitles = titles;
         this.sDescription = contents;
     }
@@ -31,7 +31,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
     @NonNull
     @Override
     public ViewHolderDatos onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = inflater.inflate(R.layout.custom_view,viewGroup,false);
+        View view = layoutF.inflate(R.layout.custom_view,viewGroup,false);
         return new ViewHolderDatos(view);
     }
 
@@ -45,7 +45,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
 
         // Propiedad para dar forma
         GradientDrawable forma = new GradientDrawable();
-        forma.setShape(GradientDrawable.OVAL);
+        forma.setShape(GradientDrawable.RECTANGLE);
 
         // Con Random podemos generar al azar numeros para utilizar en. ver https://youtu.be/JLTUPaWVGm4
         Random r = new Random();
@@ -68,7 +68,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
 
         public ViewHolderDatos(@NonNull View itemView) {
             super(itemView);
-            // implement onClick
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

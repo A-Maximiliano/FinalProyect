@@ -27,10 +27,6 @@ public class Details extends AppCompatActivity  {
         // setea el contenido o parrafo que describe el juego en el textview
         gameStory.setText(description);
         gameStory.setMovementMethod(new ScrollingMovementMethod());
-
-        // enable back button to main activity or recyclerview
-        // ********************No se para que sirve esto**********************
-       // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }
