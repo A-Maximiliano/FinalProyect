@@ -22,9 +22,10 @@ public class Details extends AppCompatActivity  {
         String description = i.getStringExtra("descripcion_delJuego");
 
         // setea el valor para el titulo del juego
+        //getSupportActionBar().setTitle(title);
         getSupportActionBar().setTitle(title);
 
-        // setea el contenido o parrafo que describe el juego en el textview
+        // setea el contenido o parrafo que describe el juego en el textview. Investigar como usar Reciclerview
         gameStory.setText(description);
         gameStory.setMovementMethod(new ScrollingMovementMethod());
     }

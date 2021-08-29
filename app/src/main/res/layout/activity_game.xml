@@ -8,10 +8,10 @@
     android:id="@+id/drawer">
 
     <include
-        android:layout_marginTop="?attr/actionBarSize"
-        android:layout_height="wrap_content"
+        layout="@layout/content_game_list"
         android:layout_width="match_parent"
-        layout="@layout/content_game_list"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
 

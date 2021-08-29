@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    //Ojo hacer lista dinamica
+    //Intentar hacer lista dinamica con lo visto en la clase SQLite
     <string-array name="videogames_title">
         <item>Syberia Saga</item>
         <item>Psyconauts</item>

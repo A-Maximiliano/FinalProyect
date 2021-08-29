@@ -27,11 +27,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
         this.sDescription = contents;
     }
 
-
+    //Creacion de clase interna anidada
     @NonNull
     @Override
     public ViewHolderDatos onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = layoutF.inflate(R.layout.custom_view,viewGroup,false);
+        View view = layoutF.inflate(R.layout.custom_view_game_list,viewGroup,false);
         return new ViewHolderDatos(view);
     }
 
@@ -47,11 +47,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
         GradientDrawable forma = new GradientDrawable();
         forma.setShape(GradientDrawable.RECTANGLE);
 
-        // Con Random podemos generar al azar numeros para utilizar en. ver https://youtu.be/JLTUPaWVGm4
-        Random r = new Random();
-        int colorRojo = r.nextInt(255 - 0 + i);
-        int colorGreen = r.nextInt(255 - i + 1);
-        int colorBlue = r.nextInt(255 - 0 + (i+1));
+        // Con Random podemos generar al azar numeros para utilizar en la seleccion de colores para el cardview. Repasar video https://youtu.be/JLTUPaWVGm4
+        Random rdm = new Random();
+        int colorRojo = rdm.nextInt(255 - 0 + i);
+        int colorGreen = rdm.nextInt(255 - i + 1);
+        int colorBlue = rdm.nextInt(255 - 0 + (i+1));
         forma.setColor(Color.rgb(colorRojo,colorGreen,colorBlue));
         holderGameInfo.circle.setBackground(forma);
     }
@@ -69,20 +69,17 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
         public ViewHolderDatos(@NonNull View itemView) {
             super(itemView);
 
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i = new Intent(v.getContext(),Details.class);
-                    // send story title and contents through recyclerview to detail activity
-                    i.putExtra("titulo_del_juego",sTitles[getAdapterPosition()]);
-                    i.putExtra("descripcion_delJuego", sDescription[getAdapterPosition()]);
-                    v.getContext().startActivity(i);
-                }
+            itemView.setOnClickListener(v -> {
+                Intent i = new Intent(v.getContext(),Details.class);
+                // enviar titulo y contenido de descripcion recyclerview
+                i.putExtra("titulo_del_juego",sTitles[getAdapterPosition()]);
+                i.putExtra("descripcion_delJuego", sDescription[getAdapterPosition()]);
+                v.getContext().startActivity(i);
             });
             gameTitle = itemView.findViewById(R.id.gameTitle);
             gameDescription = itemView.findViewById(R.id.gameDescription);
             number = itemView.findViewById(R.id.number);
-            circle = itemView.findViewById(R.id.circle);
+            circle = itemView.findViewById(R.id.forma);
 
 
         }
