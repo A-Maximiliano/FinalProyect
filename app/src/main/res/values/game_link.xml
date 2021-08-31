@@ -2,32 +2,32 @@
 <resources>
     <string-array name="game_link">
         <item>
-            https://store.steampowered.com/app/46500/Syberia/
+            Analisis videojuego Syberia
         </item>
         <item>
-            https://store.steampowered.com/app/3830/Psychonauts/
+            Analisis videojuego Psychonauts
 
         </item>
         <item>
-            sdfgsdf.
+             Analisis videojuego Hellblade
         </item>
         <item>
-            Metro
+            Analisis videojuego Metro
         </item>
         <item>
-           Ambientado
+           Analisis videojuego A Plague Tale Innocence
         </item>
         <item>
-           Dishonored
+           Analisis videojuego Dishonored
         </item>
         <item>
-           El brujo
+           Analisis videojuego The witcher
         </item>
         <item>
-            Toda
+            Analisis videojuego Inside
         </item>
         <item>
-            Twelve
+            Analisis videojuego Twelve minutes
         </item>
     </string-array>
 </resources>

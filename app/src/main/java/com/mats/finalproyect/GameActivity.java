@@ -21,7 +21,7 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
-       /* String Send_text = "https://youtu.be/gVIAAD5yUqM";
+      /*  String Send_text = "https://youtu.be/gVIAAD5yUqM";
 
         final Button Start_search = findViewById(R.id.btnJuego);
         //Start_search.setOnClickListener(new View.OnClickListener());
@@ -29,8 +29,9 @@ public class GameActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 //searchWeb(Send_text.getText().toString());
-                searchWeb(Send_text);
-            }
+                String searchCriteria = Send_text;
+                searchWeb(searchCriteria);
+           }
         });*/
 
         // Obtenemos la lista de titulo del videojuego y descripcion del mismo
@@ -44,7 +45,7 @@ public class GameActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
     }
 
-    /*public void searchWeb(String query) {
+   /* public void searchWeb(String query) {
         Intent intent = new Intent(Intent.ACTION_SEARCH);
         intent.putExtra(SearchManager.QUERY, query);
         if (intent.resolveActivity(getPackageManager()) != null) {
