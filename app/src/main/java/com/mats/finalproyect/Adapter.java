@@ -20,11 +20,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
     private LayoutInflater layoutF;
     private String[] sTitles;
     private String[] sDescription;
+    private String[] sgameLink;
 
-    Adapter(Context context, String[] titles, String[] contents){
+    Adapter(Context context, String[] titles, String[] contents,String[] gameLink){
         this.layoutF = LayoutInflater.from(context);
         this.sTitles = titles;
         this.sDescription = contents;
+        this.sgameLink = gameLink;
     }
 
     //Creacion de clase interna anidada
@@ -39,8 +41,10 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
     public void onBindViewHolder(@NonNull ViewHolderDatos holderGameInfo, int i) {
         String title = sTitles[i];
         String content = sDescription[i];
+        String gameL = sgameLink[i];
         holderGameInfo.gameTitle.setText(title);
         holderGameInfo.gameDescription.setText(content);
+        holderGameInfo.gameLink.setText(gameL);
         holderGameInfo.number.setText(String.valueOf(title.charAt(0)));
 
         // Propiedad para dar forma
@@ -63,7 +67,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
 
     public class ViewHolderDatos extends RecyclerView.ViewHolder{
 
-        TextView gameTitle, gameDescription,number;
+        TextView gameTitle, gameDescription,gameLink,number;
         CardView circle;
 
         public ViewHolderDatos(@NonNull View itemView) {
@@ -75,10 +79,12 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
                 // enviar titulo y contenido de descripcion recyclerview
                 i.putExtra("titulo_del_juego",sTitles[getAdapterPosition()]);
                 i.putExtra("descripcion_delJuego", sDescription[getAdapterPosition()]);
+                i.putExtra("comprar_juego", sgameLink[getAdapterPosition()]);
                 v.getContext().startActivity(i);
             });
             gameTitle = itemView.findViewById(R.id.gameTitle);
             gameDescription = itemView.findViewById(R.id.gameDescription);
+            gameLink = itemView.findViewById(R.id.gameLink);
             number = itemView.findViewById(R.id.number);
             circle = itemView.findViewById(R.id.forma);
 

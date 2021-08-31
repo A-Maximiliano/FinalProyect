@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="game_link">
+        <item>
+            https://store.steampowered.com/app/46500/Syberia/
+        </item>
+        <item>
+            https://store.steampowered.com/app/3830/Psychonauts/
+
+        </item>
+        <item>
+            sdfgsdf.
+        </item>
+        <item>
+            Metro
+        </item>
+        <item>
+           Ambientado
+        </item>
+        <item>
+           Dishonored
+        </item>
+        <item>
+           El brujo
+        </item>
+        <item>
+            Toda
+        </item>
+        <item>
+            Twelve
+        </item>
+    </string-array>
+</resources>

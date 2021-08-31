@@ -20,6 +20,7 @@ public class Details extends AppCompatActivity  {
         Intent i = getIntent();
         String title = i.getStringExtra("titulo_del_juego");
         String description = i.getStringExtra("descripcion_delJuego");
+        String enlace = i.getStringExtra("comprar_juego");
 
         // setea el valor para el titulo del juego
         //getSupportActionBar().setTitle(title);
