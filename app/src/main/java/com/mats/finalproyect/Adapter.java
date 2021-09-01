@@ -17,13 +17,13 @@ import java.util.Random;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
 
-    private LayoutInflater layoutF;
+    private LayoutInflater sLayoutF;
     private String[] sTitles;
     private String[] sDescription;
     private String[] sgameLink;
 
     Adapter(Context context, String[] titles, String[] contents,String[] gameLink){
-        this.layoutF = LayoutInflater.from(context);
+        this.sLayoutF = LayoutInflater.from(context);
         this.sTitles = titles;
         this.sDescription = contents;
         this.sgameLink = gameLink;
@@ -33,7 +33,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
     @NonNull
     @Override
     public ViewHolderDatos onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = layoutF.inflate(R.layout.custom_view_game_list,viewGroup,false);
+        View view = sLayoutF.inflate(R.layout.custom_view_game_list,viewGroup,false);
         return new ViewHolderDatos(view);
     }
 
@@ -79,7 +79,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
                 // enviar titulo y contenido de descripcion recyclerview
                 i.putExtra("titulo_del_juego",sTitles[getAdapterPosition()]);
                 i.putExtra("descripcion_delJuego", sDescription[getAdapterPosition()]);
-                i.putExtra("comprar_juego", sgameLink[getAdapterPosition()]);
+                i.putExtra("video_analisis", sgameLink[getAdapterPosition()]);
                 v.getContext().startActivity(i);
             });
             gameTitle = itemView.findViewById(R.id.gameTitle);

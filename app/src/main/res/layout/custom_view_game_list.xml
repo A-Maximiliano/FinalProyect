@@ -23,33 +23,30 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/forma"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="65dp"
+                android:layout_height="108dp"
                 android:layout_marginBottom="5dp"
                 app:cardBackgroundColor="#FF5722"
                 app:cardCornerRadius="60dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="109dp">
 
                     <TextView
                         android:id="@+id/number"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
-                        android:padding="10dp"
                         android:text="A"
                         android:textColor="#fff"
-                        android:textSize="30sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:textSize="42sp"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.51"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
+                        tools:layout_editor_absoluteY="26dp" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
@@ -76,7 +73,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:maxLength="23"
+                android:maxLength="32"
                 android:text="Contenido con descripcion del videojuego"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -93,7 +90,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:maxLength="23"
+                android:maxLength="32"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

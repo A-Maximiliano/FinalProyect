@@ -25,7 +25,7 @@ public class Details extends AppCompatActivity  {
         String title = i.getStringExtra("titulo_del_juego");
         String description = i.getStringExtra("descripcion_delJuego");
         //comento esta linea para detectar el problema
-         String enlace = i.getStringExtra("comprar_juego");
+         String enlace = i.getStringExtra("video_analisis");
 
         // setea el valor para el titulo del juego
         //getSupportActionBar().setTitle(title);
