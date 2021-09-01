@@ -2,32 +2,32 @@
 <resources>
     <string-array name="game_link">
         <item>
-            Analisis videojuego Syberia
+                Analisis videojuego Syberia
         </item>
         <item>
-            Analisis videojuego Psychonauts
+                Analisis videojuego Psychonauts
 
         </item>
         <item>
-             Analisis videojuego Hellblade
+                Analisis videojuego Hellblade
         </item>
         <item>
-            Analisis videojuego Metro
+                Analisis videojuego Metro
         </item>
         <item>
-           Analisis videojuego A Plague Tale Innocence
+                Analisis videojuego A Plague Tale Innocence
         </item>
         <item>
-           Analisis videojuego Dishonored
+                Analisis videojuego Dishonored
         </item>
         <item>
-           Analisis videojuego The witcher
+                Analisis videojuego The witcher
         </item>
         <item>
-            Analisis videojuego Inside
+                Analisis videojuego Inside
         </item>
         <item>
-            Analisis videojuego Twelve minutes
+                Analisis videojuego Twelve minutes
         </item>
     </string-array>
 </resources>

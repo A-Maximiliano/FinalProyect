@@ -85,7 +85,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
             gameTitle = itemView.findViewById(R.id.gameTitle);
             gameDescription = itemView.findViewById(R.id.gameDescription);
             gameLink = itemView.findViewById(R.id.gameLink);
-            number = itemView.findViewById(R.id.number);
+            number = itemView.findViewById(R.id.letra);
             circle = itemView.findViewById(R.id.forma);
 
 
