@@ -73,7 +73,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolderDatos> {
         public ViewHolderDatos(@NonNull View itemView) {
             super(itemView);
 
-            //Aqui el IDE me recomendo usar una intruccion Lambda. Investigar
+            //Aqui el IDE me recomendo usar una intruccion Lambda. Investigar usos
             itemView.setOnClickListener(v -> {
                 Intent i = new Intent(v.getContext(),Details.class);
                 // enviar titulo y contenido de descripcion recyclerview
